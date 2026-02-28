@@ -1,0 +1,10 @@
+behavior:
+  min_delay_minutes: 5
+  max_delay_minutes: 60
+  skip_probability: 0.15
+  commit_cooldown_hours: 12
+
+weights:
+  inactivity: 0.5
+  readme_quality: 0.2
+  dependency_freshness: 0.3
