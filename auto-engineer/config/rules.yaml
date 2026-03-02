@@ -1,8 +1,8 @@
 behavior:
-  min_delay_minutes: 5
-  max_delay_minutes: 60
-  skip_probability: 0.15
-  commit_cooldown_hours: 12
+  min_delay_minutes: 1
+  max_delay_minutes: 10
+  skip_probability: 0.0    # Never skip - we want guaranteed activity
+  commit_cooldown_hours: 4  # Reduced from 12 so repos can be touched multiple times/day
 
 weights:
   inactivity: 0.5
